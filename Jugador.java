@@ -17,8 +17,8 @@ public class Jugador {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public Jugador(ArrayList<Carta> cartas, String nombre) {
-		super();
+	private Jugador(ArrayList<Carta> cartas, String nombre) {
+		/*super();*/
 		this.cartas = cartas;
 		this.nombre = nombre;
 	}
