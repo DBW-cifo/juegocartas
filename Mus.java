@@ -7,6 +7,6 @@ public class Mus {
 	public ArrayList<Jugador> jugadores = new ArrayList<Jugador>();
     
 	void addJugador(Jugador j) {
-    	
-    }
+		jugadores.add(j);
+	}
 }

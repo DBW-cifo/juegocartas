@@ -4,6 +4,17 @@ import java.util.ArrayList;
 
 public class Espanyola extends Baraja {
 	
+	@Override
+	void barajar() {
+		super.barajar();
+	}
+	@Override
+	Carta repartir() {
+		return super.repartir();
+	}
+	@Override
+	public void reiniciar() {	
+	}
 	protected ArrayList<Carta> cartas = new ArrayList<Carta>();{
 	if (cartas.size()>0) {
 		cartas.clear();
@@ -20,5 +31,5 @@ public class Espanyola extends Baraja {
 	    }
     }
 	reiniciar();
-    }
+	}
 }

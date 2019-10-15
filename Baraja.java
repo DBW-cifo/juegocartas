@@ -12,9 +12,6 @@ abstract class Baraja {
 	Carta repartir() {
 		return cartas.remove(0);   
 	}
-	public void reiniciar() {
-		
-	}
-	
+	abstract public void reiniciar();	
 /* FINAL */
 }
